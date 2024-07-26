@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  background: black;
+  padding: 20px 50px;
+  .hero__wrapp {
+    width: 25%;
+    line-height: 1.5;
+  }
+  .iphone__icon {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 25px;
+    padding-top: 30px;
+    flex-direction: row;
+    color: aliceblue;
+    gap: 10px;
+  }
+  b {
+    color: white;
+
+    font-size: 48px;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  .hero__shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

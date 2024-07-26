@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px;
+  margin-top: 20px;
+  b {
+    font-size: 24px;
+  }
+  .nav__collection {
+    display: flex;
+    gap: 50px;
+  }
+  .nav__inputs {
+    display: flex;
+    gap: 25px;
+    .nav__form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      padding: 5px;
+      border-radius: 10px;
+      background: ghostwhite;
+      .nav__inp {
+        border: none;
+        background: inherit;
+      }
+    }
+    .nav__icon {
+      display: flex;
+      gap: 25px;
+    }
+  }
+}

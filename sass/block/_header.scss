@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  .main__nav {
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    gap: 5px;
+    padding: 8px;
+
+    select {
+      background: black;
+      color: white;
+      border: none;
+    }
+    .text_content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex: 1;
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      a {
+        text-align: center;
+        text-decoration: underline;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
