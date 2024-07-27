@@ -28,11 +28,7 @@ function createContent(data) {
      <h1 class ="title" title ="${data.title}">${data.title}</h1>
      <div class="box__icon"> 
        <div class="box__star">
-       <i class="fa-solid fa-star"></i>
-       <i class="fa-solid fa-star"></i>
-       <i class="fa-solid fa-star"></i>
-       <i class="fa-solid fa-star"></i>
-       <i class="fa-solid fa-star"></i>
+       <div><img src="../assets/photo_2024-07-27_22-39-10.jpg" alt=""></div>
        </div>
           <p class= "rating">${data.rating.rate}</p>
           <p class= "category">${data.category}</p>
