@@ -1,0 +1,198 @@
+.feature_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 150px;
+
+  .title {
+    font-size: 36px;
+  }
+
+  .feature__card__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+
+    .one,
+    .second {
+      width: 100%;
+      max-width: 570px; 
+    }
+
+    .one {
+      background-color: black;
+      color: aliceblue;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      position: relative;
+
+      .one__text {
+        width: 242px;
+        display: flex;
+        position: absolute;
+        padding: 30px;
+        flex-direction: column;
+        gap: 15px;
+
+        b {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        button {
+          width: 81px;
+          height: 24px;
+          background: inherit;
+          color: aliceblue;
+        }
+      }
+    }
+
+    .second {
+      display: flex;
+      flex-direction: column;
+
+      justify-content: space-between;
+
+      .mini__card,
+      .Speakers__card,
+      .Perfume__card {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        background-color: rgb(13, 13, 13);
+        color: white;
+
+        .mini__text,
+        .Speakers__text,
+        .Perfume__text {
+          position: absolute;
+          bottom: 0;
+          left: 10px;
+          width: 255px;
+          display: flex;
+          padding: 30px;
+          flex-direction: column;
+          gap: 15px;
+
+          b {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+
+          button {
+            width: 81px;
+            height: 24px;
+            background: inherit;
+            color: aliceblue;
+          }
+        }
+      }
+
+      .mini__second {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+
+        .Speakers__card,
+        .Perfume__card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 270px;
+          height: 284px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .feature_wrap {
+    margin-top: 100px;
+
+    .feature__card__wrap {
+      flex-direction: column;
+      gap: 30px;
+
+      .one,
+      .second {
+        max-width: 100%;
+        width: auto;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .feature_wrap {
+    margin-top: 80px;
+    padding: 10px;
+
+    .title {
+      font-size: 28px;
+    }
+
+    .feature__card__wrap {
+      .one,
+      .second {
+        max-width: 100%;
+      }
+
+      .mini__second {
+        flex-direction: row;
+        gap: 20px;
+
+        .Speakers__card,
+        .Perfume__card {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .feature_wrap {
+    margin-top: 60px;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .feature__card__wrap {
+      .second {
+        max-width: 100%;
+        flex-direction: column;
+      }
+
+      .mini__second {
+        margin: auto;
+        flex-direction: column;
+        .Speakers__card,
+        .Perfume__card {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .one {
+        height: auto; 
+      }
+    }
+  }
+}

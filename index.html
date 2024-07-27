@@ -39,27 +39,30 @@
           <li class="nav__item">
             <a href=""> Sign in </a>
           </li>
-        </ul>
-        <div class="nav__inputs">
-          <form class="nav__form" action="">
-            <input
-              class="nav__inp"
-              placeholder="What are you looking for?"
-              type="text"
-            />
-            <div class="nav__src">
-              <img src="./assets/Component 2 (1).png" alt="" />
-            </div>
-          </form>
-          <div class="nav__icon">
-            <div>
-              <img src="./assets/Wishlist.png" alt="" />
-            </div>
-            <div>
-              <img src="./assets/Cart1 with buy.png" alt="" />
+          <div class="nav__inputs">
+            <form class="nav__form" action="">
+              <input
+                class="nav__inp"
+                placeholder="What are you looking for?"
+                type="text"
+              />
+              <div class="nav__src">
+                <img src="./assets/Component 2 (1).png" alt="" />
+              </div>
+            </form>
+            <div class="nav__icon">
+              <div>
+                <img src="./assets/Wishlist.png" alt="" />
+              </div>
+              <div>
+                <img src="./assets/Cart1 with buy.png" alt="" />
+              </div>
             </div>
           </div>
-        </div>
+        </ul>
+          <div onclick="toggleShow()" class="nav__menu">
+                    <img src="./assets/icons8-menu-30.png" alt="">
+                </div>
       </nav>
     </header>
     <main>
@@ -73,16 +76,273 @@
           <div class="hero__shop">
             <a href="">Shop_Now</a>
             <div
-              style="display: flex; align-items: center; width: 100%; justify-content: start"
+              style="
+                display: flex;
+                align-items: center;
+                /* width: 100%; */
+                justify-content: start;
+              "
             >
               <img src="./assets/icons arrow-right.png" alt="" />
             </div>
           </div>
         </div>
-        <div>
+        <div class="hero__img">
           <img src="./assets/hero_endframe__cvklg0xk3w6e_large 2.png" alt="" />
         </div>
       </section>
+      <section class="container">
+        <div class="category__wrap">
+          <b class="before">Categories</b>
+          <b class="category__title">Browse By Category</b>
+          <div class="category__cards">
+            <div class="cards__card">
+              <div>
+                <img src="./assets/Category-CellPhone.png" alt="" />
+              </div>
+              <p>phones</p>
+            </div>
+            <div class="cards__card">
+              <div style="display: flex; align-items: center">
+                <img src="./assets/Category-Computer.png" alt="" />
+              </div>
+              <p>Computer</p>
+            </div>
+            <div class="cards__card">
+              <div>
+                <img src="./assets/Category-SmartWatch.png" alt="" />
+              </div>
+              <p>SmartWatch</p>
+            </div>
+            <div class="cards__card">
+              <div>
+                <img src="./assets/icons8-camera-50.png" alt="" />
+              </div>
+              <p>Camera</p>
+            </div>
+            <div class="cards__card">
+              <div>
+                <img src="./assets/Category-Headphone.png" alt="" />
+              </div>
+              <p>Headphone</p>
+            </div>
+            <div class="cards__card">
+              <div>
+                <img src="./assets/Category-Gamepad.png" alt="" />
+              </div>
+              <p>Gamepad</p>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+         <section class="container menu">
+            <div class="container">
+                <div class="skeleton"> </div>
+                <div class="wrapper">
+
+                </div>
+                <button class="semore">see more</i></button>
+            </div>
+        </section>
+      <section class="container">
+         <div class="JBL__wrap">
+           <div class="JBL__text">
+            <p>Categories</p>
+            <b>Enhance Your Music Experience</b>
+            <div class="JBL__hours">
+              <div class="JBL__data">
+                <p>23</p>
+                <p>Hours</p>
+              </div>
+              <div class="JBL__data">
+                <p>05</p>
+                <p>days</p>
+              </div>
+              <div class="JBL__data">
+                <p>59</p>
+                <p>minuts</p>
+              </div>
+              <div class="JBL__data">
+                <p>35</p>
+                <p>seconds</p>
+              </div>
+            </div>
+            <button>Buy Now</button>
+           </div>
+           <div class="JBL__img">
+            <img src="./assets/Frame 694.png" alt="">
+           </div>
+         </div>
+      </section>
+      <section class="container">
+        <div class="feature_wrap">
+          <b style="color: rgb(231, 19, 19); margin-left: 30px;" class="before">Feature</b>
+          <b class="titlee">New Arrival</b>
+          <div class="feature__card__wrap">
+            <div class="feature__card one">
+              <img src="./assets/ps5-slim-goedkope-playstation_large 1.png" alt="">
+             <div class="one__text">
+              <b>PlayStation 5</b>
+             <p>Black and White version of the PS5 coming out on sale.</p>
+             <button><a href="">Buy now</a></button>
+             </div>
+            </div>
+            <div class="feature__card second">
+             <div class="mini__card">
+              <img src="./assets/attractive-woman-wearing-hat-posing-black-background 1.png" alt="">
+                <div class="mini__text">
+                  <b>Women’s Collections</b>
+                <p>Featured woman collections that give you another vibe.</p>
+                <button><a href="">shop now</a></button>
+                </div>
+              </div>
+              <div class="mini__second">
+                <div class="Speakers__card">
+                  <img src="./assets/Frame 707.png" alt="">
+                  <div class="Speakers__text">
+                    <b>Speakers</b>
+                  <p>Amazon wireless speakers</p>
+                  <button><a href="">shop now</a></button>
+                  </div>
+                </div>
+                <div class="Perfume__card">
+                  <img src="./assets/Frame 706.png" alt="">
+                  <div class="Perfume__text">
+                    <b>Perfume</b>
+                  <p>GUCCI INTENSE OUD EDP</p>
+                  <button><a href="">shop now</a></button>
+                  </div>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="order__wrap">
+           <div class="order__card">
+            <div>
+              <img src="./assets/Services.png" alt="">
+            </div>
+            <b>FREE AND FAST DELIVERY</b>
+            <p>Free delivery for all orders over $140</p>
+           </div>
+           <div class="order__card">
+            <div>
+              <img src="./assets/Services (1).png" alt="">
+            </div>
+            <b>24/7 CUSTOMER SERVICE</b>
+            <p>Friendly 24/7 customer support</p>
+           </div>
+           <div class="order__card">
+            <div>
+              <img src="./assets/Services (2).png" alt="">
+            </div>
+            <b>MONEY BACK GUARANTEE</b>
+            <p>We reurn money within 30 days</p>
+           </div>
+        </div>
+
+      </section>
     </main>
+    <footer class="footer">
+     <div class="footer__wrap container">
+      <ul class="footer__collection">
+        <li class="footer__item">
+          <b>Exclusive</b>
+        </li>
+        <li class="footer__item">
+          <P>Subscribe</P>
+        </li>
+        <li class="footer__item">
+          <p>Get 10% off your first order</p>
+        </li>
+        <li class="footer__item">
+          <form action="">
+            <input placeholder="Enter your email" type="text">
+            <div style="display: flex;align-items: center;"><img src="./assets/icon-send.png" alt=""></div>
+          </form>
+        </li>
+      </ul>
+      <ul class="footer__collection">
+        <li class="footer__item">
+          <b>Support</b>
+        </li>
+        <li class="footer__item">
+          <a href="">111 Bijoy sarani, Bangladesh.</a>
+        </li>
+        <li class="footer__item">
+          <a href="">exclusive@gmail.com</a>
+        </li>
+        <li class="footer__item">
+        <a href="">+88015-88888-9999</a>
+        </li>
+      </ul>
+      <ul class="footer__collection">
+        <li class="footer__item">
+          <b>Account</b>
+        </li>
+        <li class="footer__item">
+          <a href="">My Account</a>
+        </li>
+        <li class="footer__item">
+          <a href="">Login / Register</a>
+        </li>
+        <li class="footer__item">
+          <a href="">Cart</a>
+        </li>
+        <li class="footer__item">
+          <a href="">Wishlist</a>
+        </li>
+        <li class="footer__item">
+          <a href="">Shop</a>
+        </li>
+      </ul>
+      <ul class="footer__collection">
+        <li class="footer__item">
+          <b>Quick Link</b>
+        </li>
+        <li class="footer__item">
+          <a href="">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="">Terms Of Use</a>
+        </li>
+        <li class="footer__item">
+         <a href="">FAQ</a>
+        </li>
+        <li class="footer__item">
+         <a href="">Contact</a>
+        </li>
+      </ul>
+      <ul class="footer__collection">
+        <li class="footer__item">
+          <b>Download App</b>
+        </li>
+        <li class="footer__item">
+          <a href="">Save $3 with App New User Only</a>
+        </li>
+        <li class="footer__item">
+          <div class="footer__QR">
+            <div>
+              <img src="./assets/Qr Code.png" alt="">
+            </div>
+            <div class="footer__play">
+              <div>
+                <img src="./assets/Frame 718.png" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="footer__item">
+          <div>
+            <img src="./assets/Frame 741.png" alt="">
+          </div>
+        </li>
+      </ul>
+     </div>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

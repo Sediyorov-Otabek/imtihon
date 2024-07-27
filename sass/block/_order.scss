@@ -1,0 +1,45 @@
+.order__wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: space-between;
+  .order__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .order__wrap {
+    flex-direction: column; 
+    gap: 15px;
+
+    .order__card {
+      gap: 20px; 
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .order__wrap {
+    margin-top: 100px; 
+
+    .order__card {
+      gap: 25px; 
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .order__wrap {
+    margin-top: 60px; 
+
+    .order__card {
+      gap: 15px;
+      width: 100%; 
+    }
+  }
+}

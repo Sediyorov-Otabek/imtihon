@@ -1,0 +1,126 @@
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  background: black;
+
+  .footer__wrap {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+    padding: 35px ;
+
+    .footer__collection {
+      line-height: 1.5;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+
+      .footer__item {
+        b {
+          font-size: 24px;
+        }
+
+        form {
+          display: flex;
+          background: inherit;
+          border: 1px solid gainsboro;
+          align-items: center;
+          justify-content: center;
+          padding: 5px;
+          border-radius: 8px;
+
+          input {
+            background: inherit;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+
+      .footer__QR {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    margin-top: 50px;
+
+    .footer__wrap {
+      padding: 20px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer__collection {
+      .footer__item {
+        b {
+          font-size: 20px;
+        }
+
+        form {
+          padding: 4px;
+        }
+      }
+
+      .footer__QR {
+        gap: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer__wrap {
+      padding: 15px 15px;
+    }
+
+    .footer__collection {
+      .footer__item {
+        b {
+          font-size: 18px;
+        }
+
+        form {
+          padding: 3px;
+        }
+      }
+
+      .footer__QR {
+        gap: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .footer__wrap {
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid red;
+      gap: 10px;
+    }
+
+    .footer__collection {
+      max-width: 300px;
+      .footer__item {
+        b {
+          font-size: 16px;
+        }
+
+        form {
+          padding: 2px;
+        }
+      }
+
+      .footer__QR {
+        gap: 20px;
+      }
+    }
+  }
+}
